@@ -27,7 +27,7 @@ RUN mkdir /deepspeed
 WORKDIR "/deepspeed"
 
 # Clone the DeepSpeedExamples from repository
-RUN git clone https://github.com/microsoft/DeepSpeedExamples/
+RUN git clone https://github.com/Uier-zju/DeepSpeedExamples/
 
 # Set the working directory to DeepSpeedExamples for models
 WORKDIR "/deepspeed/DeepSpeedExamples/"
